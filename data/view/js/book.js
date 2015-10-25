@@ -77,7 +77,7 @@ Page = function(type, chapterNum) {
   var filePath = "../audio/{{folder}}/{{prefix}}SB_book{{bookNum}}_chapter{{chapterNum}}.mp3"
                  .re({bookNum: 10, folder: folder, chapterNum: strChapterNum, prefix: prefix});
 
-  var switchButton = $('a[href=#'+type+'/1]'); 
+  var switchButton = $('a[href=#'+type+'/34]'); 
       nav = $('#nav ul'),
       notesUl  = $('#notes ul'),
       img      = $('#image img'),
@@ -112,7 +112,7 @@ Page = function(type, chapterNum) {
       }
 
       function changeTitle() {
-          title.html('Глава ' + i + '.&nbsp;&nbsp;' + chapters[i - 1]);
+          title.html('Глава ' + i + '.&nbsp;&nbsp;' + chapters[i - 34]);
       }
 
       function changeNote() {
@@ -135,7 +135,7 @@ Page = function(type, chapterNum) {
       }
 
       function changeImage() {
-          img.attr('src', 'images/SB10images/' + i + '.jpg');
+          img.attr('src', 'images/SB10images/' + (i-33) + '.jpg');
           //this.img.jScale({ls:'600px'});
       }
   }
