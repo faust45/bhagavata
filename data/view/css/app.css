@@ -1,0 +1,332 @@
+body {
+  background-image: url(../images/fon3.jpg);
+  background-repeat: repeat;
+}
+
+#pics .go_to_site {
+    text-align: center;
+}
+
+#pics .go_to_site a {
+    font-size: 2.0em !important;
+    margin-right: 2em;
+}
+
+#main {
+  width: 100%;
+  margin-top: 3em;
+}
+
+#top_menu {
+  width: 100%;
+}
+
+#top_menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#top_menu li {
+  display:inline;
+  list-style-type: none;
+  margin: 0 1.4em 0 1.4em;
+  padding: 0;
+}
+
+#top_menu a.active {
+  color: #FAFA23 !important;
+  text-decoration: underline;
+}
+
+#nav {
+  margin-right: 0;
+  background:url(../images/poloska1.jpg) no-repeat;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 2em;
+  margin-top: 2em;
+  width: 103%;
+}
+
+
+#nav span {
+  padding-top:6px;
+  padding-right:1em;
+  float:left;
+}
+
+#nav ul {
+list-style:none;
+margin: 0;
+padding:3px 0 0 0;
+height:25px;
+width: 100%;
+}
+
+#nav li {
+float:left;
+height:22px;
+list-style-type: none;
+margin:0 5px 0 0;
+}
+
+#nav ul li a {
+display:block;
+position:relative;
+height:17px;
+background:url(../images/bg_pagenav.jpg) repeat-x 0 0 ;
+color:#333333;
+padding:5px 8px 0 8px;
+padding:4px 8px 2px 8px\9;
+text-align:center;
+text-decoration:none;
+font-size: 12px;
+line-height:1;
+float:left;
+}
+
+
+#nav ul li b{
+display:block;
+position:absolute;
+top:0;
+left:0;
+width:8px;
+height:22px;
+background:url(../images/bg_pagenav.jpg) no-repeat 0 -22px;
+font-size:1px;
+}
+
+#nav ul li i{
+display:block;
+position:absolute;
+top:0;
+right:0;
+_right:-1px;
+width:8px;
+height:22px;
+background:url(../images/bg_pagenav.jpg) no-repeat -8px -22px;
+font-size:1px;
+}
+
+
+#main {
+  clear:both;
+  width:100%;
+}
+
+#item {
+  clear:both;
+  width:50%;
+  float:left;
+}
+
+#content {
+  width:100%;
+  color: #F6F7C8;
+  font-size: 1em;
+  font-family: Arial,Helvetica,sans-serif; 
+  float:left;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#title {
+color:white;
+font-family:Arial,Helvetica,sans-serif;
+font-size:1.5em;
+margin-top:1em;
+text-align:center;
+}
+
+#notes ul {
+  list-style: none;
+}
+
+#notes ul li {
+  margin-bottom: 0.4em;
+}
+
+#notes ul li span {
+  margin-right: 0.4em;
+}
+
+.player {
+  margin-bottom: 1.5em;
+  margin-left: 2.5em !important;
+}
+
+.hide {
+    display: none;
+}
+
+#top_menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 150%;
+}
+
+#top_menu a:hover {
+  color: #FAFA23 !important;
+}
+
+#image {
+  float:left;
+  width: 50%;
+}
+
+#image img {
+  margin-bottom: 2em;
+}
+
+.bharati_ru {
+  font-size: 2.0em !important;
+  margin-left: 0.6em;
+  text-decoration:none !important;
+}
+
+.go_to_site a {
+  color: white;
+  font-size: 1.1em;
+}
+
+.go_to_site h3 {
+  color: #F6F7C8;
+  font-family: Arial,Helvetica,sans-serif; 
+  margin-right: 18%;
+}
+
+.go_to_site a:hover {
+  color: #FAFA23 !important;
+}
+
+#download_books a {
+  color: white;
+  font-size: 1.1em;
+}
+
+#download_books li {
+    margin-bottom: 0.5em;
+}
+
+#download_books a:hover {
+  color: #FAFA23 !important;
+}
+
+#stuff {
+  width: 100%;
+  margin-top: 4em;
+}
+
+#pics {
+  float:left;
+  width: 45%;
+  margin-left: 2em;
+}
+
+#pics a img {
+  border:none;
+  padding: 0.2em 0.2em 0.2em 0.2em;
+}
+
+
+#pics a {
+  text-decoration:none;
+}
+
+#pics .gal {
+  color: #F6F7C8;
+  font-size: 1em;
+  font-family: Arial,Helvetica,sans-serif; 
+  margin-bottom: 2em;
+}
+
+.about {
+    width: 50% !important;
+    margin-top: 0em !important;
+    margin-left: 1.2em !important;
+}
+
+#item_book {
+  float: none !important;
+  text-align:center;
+}
+
+#item_book .player {
+  margin-left: 0 !important;
+}
+
+#item_book .image {
+	width:auto !important;
+	float:none !important;
+}
+
+#books-menu {
+  margin-top: 14em;
+  margin-left: 9em;
+}
+
+#books-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#books-menu li {
+  display:inline;
+  list-style-type: none;
+  margin: 0 1.4em 0 1.4em;
+  padding: 0;
+}
+
+#books-menu a.active {
+  color: #FAFA23 !important;
+  text-decoration: underline;
+}
+
+#sb_menu ul {
+  list-style: none;
+}
+
+#sb_menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 150%;
+}
+
+#sb_menu a:hover {
+  color: #FAFA23 !important;
+}
+
+#sb_menu a.active {
+  color: #FAFA23 !important;
+  text-decoration: underline;
+}
+
+#bhagavata {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#bhagavata a {
+    float: right;
+}
+
+.logos {
+    float: left;
+    color: #F6F7C8;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1em;
+    margin-top: 4.5em;
+    margin-bottom: 5em;
+}
+
+.logos div {
+    margin-left: 2.5em;
+    float: left;
+}
+
